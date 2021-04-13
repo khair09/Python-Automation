@@ -21,3 +21,13 @@ while row<=a:
         column=0
         b+=1
         print("")
+ """Another way """
+"""        
+print("Enter your value:", end=" ")
+a = int(input())
+for i in range(a):
+    for j in range(i+1):
+        print("*", end=" ")
+    print()
+"""
+ 
